@@ -1,0 +1,27 @@
+{
+  "name": "identity-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch service -- -r esm service/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.21.0",
+    "express": "^4.16.4",
+    "express-bearer-token": "^2.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "level": "^5.0.1",
+    "level-ttl": "^3.1.1",
+    "leveldown": "^5.0.1",
+    "levelup": "^4.0.1",
+    "ms": "^2.1.1",
+    "pure-uuid": "^1.5.7"
+  },
+  "devDependencies": {
+    "esm": "^3.2.22",
+    "nodemon": "^1.18.11"
+  }
+}
